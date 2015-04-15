@@ -17,3 +17,5 @@ imagen | **código** | **notas**
    * **opt.** la cucarda es optativa según el caso:
      * **designing** cuando todavía no sabemos qué forma va a tener, estamos en etapa de diseño, no están definidos los parámetros ni nada; probablemente el módulo todavía no esté usado por ningún otro. Debería ser versión 0.0.x
      * **extending** cuando las intefaces del API están relativamente diseñadas (aún pueden cambiar bastante porque no está estable). Todavía falta agregar mucha funcionalidad, pero lo que está se puede usar porque tiene casos de prueba. Debería ser versión 0.x.x
+     * **stable** no ponemos nada (solo quitamos las otras cucardas de estabilidad) 
+  * **manual** la cucarda se debe ponerse o quitarse manualmente (las demás son automáticas). 
