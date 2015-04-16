@@ -7,11 +7,11 @@ imagen | **código** | **notas**
 ![designing](https://img.shields.io/badge/stability-desgining-red.svg) | `![designing](https://img.shields.io/badge/stability-desgining-red.svg)` | opt. manual
 ![extending](https://img.shields.io/badge/stability-extending-orange.svg) | `![designing](https://img.shields.io/badge/stability-extending-orange.svg)` | opt. manual
 ![npm-version](https://github.com/codenautas/codenautas/blob/master/img/npm-version.png) | `[![version](https://img.shields.io/npm/v/multilang.svg?style=flat)](https://npmjs.org/package/multilang)`  |
-![downloads](https://github.com/codenautas/codenautas/blob/master/img/downloads.png) | `[![downloads](https://img.shields.io/npm/dm/multilang.svg?style=flat)](https://npmjs.org/package/multilang)`|
+![downloads](https://github.com/codenautas/codenautas/blob/master/img/downloads.png) | `[![downloads](https://img.shields.io/npm/dm/yyy.svg?style=flat)](https://npmjs.org/package/yyy)`|
 ![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `[![linux](https://img.shields.io/travis/xxx/yyy/master.svg?label=linux&style=flat)](https://travis-ci.org/xxx/yyy)`  | la cambiaría por Build
-![windows](https://github.com/codenautas/codenautas/blob/master/img/windows.png)   |   `[![windows](https://img.shields.io/appveyor/ci/emilioplatzer/multilang/master.svg?label=windows&style=flat)](https://ci.appveyor.com/project/emilioplatzer/multilang)`  |
-![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/codenautas/multilang/master.svg?style=flat)](https://coveralls.io/r/codenautas/multilang)`  |
-![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://codeclimate.com/github/codenautas/multilang/badges/gpa.svg)](https://codeclimate.com/github/codenautas/multilang)` |
+![windows](https://github.com/codenautas/codenautas/blob/master/img/windows.png)   |   `[![windows](https://img.shields.io/appveyor/ci/emilioplatzer/yyy/master.svg?label=windows&style=flat)](https://ci.appveyor.com/project/emilioplatzer/yyy)`  |
+![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/xxx/yyy/master.svg?style=flat)](https://coveralls.io/r/xxx/yyy)`  |
+![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://codeclimate.com/github/xxx/yyy/badges/gpa.svg)](https://codeclimate.com/github/xxx/yyy)` |
 ![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png) | `[![dependencies](https://david-dm.org/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | falta
 
 ## referencias sobre la tabla:
