@@ -6,8 +6,9 @@ imagen | **código** | **notas**
 -------|------------|-----------
 ![designing](https://img.shields.io/badge/stability-desgining-red.svg) | `![designing](https://img.shields.io/badge/stability-desgining-red.svg)` | opt. manual
 ![extending](https://img.shields.io/badge/stability-extending-orange.svg) | `![designing](https://img.shields.io/badge/stability-extending-orange.svg)` | opt. manual
-![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `![linux][https://img.shields.io/travis/own/mod/master.svg?label=linux&style=flat](https://travis-ci.org/own/mod)`  | la cambiaría por Build
-![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png)       | `[![dependencies](https://david-dm.org/own/mod.svg)](https://david-dm.org/own/mod)` | falta
+![npm-version](https://github.com/codenautas/codenautas/blob/master/img/npm-version.png) | `![version][ https://img.shields.io/npm/v/multilang.svg?style=flat](https://npmjs.org/package/multilang)`  | 
+![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `![linux][https://img.shields.io/travis/xxx/yyy/master.svg?label=linux&style=flat](https://travis-ci.org/xxx/yyy)`  | la cambiaría por Build
+![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png)       | `[![dependencies](https://david-dm.org/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | falta
 
 ## referencias sobre la tabla:
  * **código** va tal cual salvo por los siguientes parámetros que hay que reemplazar
