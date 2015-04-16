@@ -11,7 +11,7 @@ imagen | **código** | **notas**
 ![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `[![linux](https://img.shields.io/travis/xxx/yyy/master.svg?label=linux&style=flat)](https://travis-ci.org/xxx/yyy)`  | la cambiaría por Build
 ![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/xxx/yyy/master.svg?style=flat)](https://coveralls.io/r/xxx/yyy)`  |
 ![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://codeclimate.com/github/xxx/yyy/badges/gpa.svg)](https://codeclimate.com/github/xxx/yyy)` |
-![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png) | `[![dependencies](https://david-dm.org/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | falta
+![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png) | `[![dependencies](https://img.shields.io/david/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | falta
 
 ## referencias sobre la tabla:
  * **código** va tal cual salvo por los siguientes parámetros que hay que reemplazar
