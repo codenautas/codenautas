@@ -6,10 +6,10 @@ imagen | **código** | **notas**
 -------|------------|-----------
 ![designing](https://img.shields.io/badge/stability-desgining-red.svg) | `![designing](https://img.shields.io/badge/stability-desgining-red.svg)` | opt. manual
 ![extending](https://img.shields.io/badge/stability-extending-orange.svg) | `![designing](https://img.shields.io/badge/stability-extending-orange.svg)` | opt. manual
-![npm-version](https://github.com/codenautas/codenautas/blob/master/img/npm-version.png) | `[![version](https://img.shields.io/npm/v/yyy.svg?style=flat)](https://npmjs.org/package/yyy)`  |
-![downloads](https://github.com/codenautas/codenautas/blob/master/img/downloads.png) | `[![downloads](https://img.shields.io/npm/dm/yyy.svg?style=flat)](https://npmjs.org/package/yyy)`|
-![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `[![linux](https://img.shields.io/travis/xxx/yyy/master.svg?label=linux&style=flat)](https://travis-ci.org/xxx/yyy)`  | la cambiaría por Build
-![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/xxx/yyy/master.svg?style=flat)](https://coveralls.io/r/xxx/yyy)`  |
+![npm-version](https://github.com/codenautas/codenautas/blob/master/img/npm-version.png) | `[![version](https://img.shields.io/npm/v/yyy.svg)](https://npmjs.org/package/yyy)`  |
+![downloads](https://github.com/codenautas/codenautas/blob/master/img/downloads.png) | `[![downloads](https://img.shields.io/npm/dm/yyy.svg)](https://npmjs.org/package/yyy)`|
+![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `[![build](https://img.shields.io/travis/xxx/yyy/master.svg)](https://travis-ci.org/xxx/yyy)`  | 
+![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/xxx/yyy/master.svg)](https://coveralls.io/r/xxx/yyy)`  |
 ![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://codeclimate.com/github/xxx/yyy/badges/gpa.svg)](https://codeclimate.com/github/xxx/yyy)` |
 ![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png) | `[![dependencies](https://img.shields.io/david/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | falta
 
