@@ -10,13 +10,13 @@ imagen | **código** | **notas**
 ![downloads](https://github.com/codenautas/codenautas/blob/master/img/downloads.png) | `[![downloads](https://img.shields.io/npm/dm/yyy.svg)](https://npmjs.org/package/yyy)`|
 ![medalla-linux](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-linux.png)       | `[![linux](https://img.shields.io/travis/xxx/yyy/master.svg)](https://travis-ci.org/xxx/yyy)`  | la cambiaría por Build
 ![coverage](https://github.com/codenautas/codenautas/blob/master/img/coverage.png)   |   `[![coverage](https://img.shields.io/coveralls/xxx/yyy/master.svg)](https://coveralls.io/r/xxx/yyy)`  |
-![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://img.shields.io/codeclimate/github/kabisaict/flow.svg)](https://codeclimate.com/github/xxx/yyy)` |
+![climate](https://github.com/codenautas/codenautas/blob/master/img/climate.png)   | `[![climate](https://img.shields.io/codeclimate/github/xxx/yyy.svg)](https://codeclimate.com/github/xxx/yyy)` |
 ![medalla-dependencias](https://github.com/codenautas/codenautas/blob/master/img/medalla-ejemplo-dependencies.png) | `[![dependencies](https://img.shields.io/david/xxx/yyy.svg)](https://david-dm.org/xxx/yyy)` | 
 
 ## referencias sobre la tabla:
  * **código** va tal cual salvo por los siguientes parámetros que hay que reemplazar
-   * **own** el nombre del repositorio, en nuestro caso *codenautas*
-   * **mod** el nombre del módulo
+   * **xxx** el nombre del repositorio, en nuestro caso *codenautas*
+   * **yyy** el nombre del módulo
  * notas
    * **opt.** la cucarda es optativa según el caso:
      * **designing** cuando todavía no sabemos qué forma va a tener, estamos en etapa de diseño, no están definidos los parámetros ni nada; probablemente el módulo todavía no esté usado por ningún otro. Debería ser versión 0.0.x
