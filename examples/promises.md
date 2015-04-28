@@ -26,3 +26,36 @@ function readAndParseJsonFile(filename){
 ```
 
 que tiene la ventaja de que si `sanitizeFileName` tira una excepción se puede capturar dentro de la cadena de excepciones con un `.catch`
+
+## casos de prueba
+
+Imaginemos que queremos probar la función f que devuelve una promesa. Puedo querer verificar que la cadena de promesas que devuelve f finalmente se resuelve con cierto valor, o puedo querer verificar que termina con cierto error
+
+### prueba de promesa bien resuelta
+
+```js
+var expect = require('expect.js');
+// ...
+it('esta prueba asincrónica... ', function(done){ // "done" porque es asincrónica
+    // ...
+    f(...).then(function(respuestaObtenida){
+        expect(respuestaObtenida).to.eql(valorEsperado);
+        done(); // sin parametros=termino ok
+    }).catch(function(err){
+        done(err);
+    });
+});
+```
+
+### prueba de promesa que espero que devuelva una falla
+```js
+it('esta prueba asincrónica... ', function(done){
+    f(...).then(function(respuestaObtenida){
+        done("no esperaba una respuesta, esperaba un error y obtuve "+respuestaObtenida);
+    }).catch(function(err){
+        expect(err).to.be(Error);
+        expect(err.message).to.match(/parte del mensaje que esperaba/);
+        done(); // sin parametros=termino ok
+    });
+});
+```
