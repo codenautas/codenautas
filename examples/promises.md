@@ -51,6 +51,8 @@ readAndParseJsonFile('config.json').then(function(config){
 });
 ```
 
+ * ver ejemplo con recuperación del estado del error [acá](promises-recup.md)
+
 Preferimos en las primeras líneas de readAndParse poner:
 ```js
 function readAndParseJsonFile(filename){
