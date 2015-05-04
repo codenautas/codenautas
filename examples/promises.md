@@ -1,3 +1,34 @@
+Sin usar promesas, usando callbacks puros:
+
+```js
+var fs = require('fs');
+
+function readAndParseJsonFile(filename,callback){
+    fs.readFile(sanitizeFileName(filename),{encoding:'utf8'},function(err, stringData){
+        if(err){
+            callback(err);
+        }else{
+            try{
+                var parsedData=JSON.parse(stringData);
+                // acá no se puede llamar al callback para que no esté dentro del try
+            }catch(parseError){
+                callback(parseError);
+                return ; // acá debo terminar para no llamar al otro callback
+            }
+            callback(null, parsedData);
+        }
+    });
+}
+
+readAndParseJsonFile('config.json',function(err, config){
+    if(err){
+        console.log('error no se pudo levantar el servidor');
+    }else{
+        startServer(config.host, config.port);
+    }
+});
+```
+
 Uso típico de promesas:
 
 ```js
