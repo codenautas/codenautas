@@ -22,9 +22,13 @@ function readAndParseJsonFile(filename,callback){
 
 readAndParseJsonFile('config.json',function(err, config){
     if(err){
-        console.log('error no se pudo levantar el servidor');
+        console.log('error al levantar servidor',err);
     }else{
-        startServer(config.host, config.port);
+        try{
+            startServer(config.host, config.port);
+        }catch(err){
+            console.log('error al levantar servidor',err);
+        }
     }
 });
 ```
@@ -42,6 +46,8 @@ function readAndParseJsonFile(filename){
 
 readAndParseJsonFile('config.json').then(function(config){
     startServer(config.host, config.port);
+}).catch(function(err){
+    console.log('error al levantar el servidor',err);
 });
 ```
 
