@@ -14,13 +14,19 @@
    * [html5rocks](http://www.html5rocks.com/en/tutorials/es6/promises/), en inglés una explicación larga con motivación
    * [ejemplos](https://github.com/codenautas/codenautas/blob/master/examples/promises.md) nuestros sobre cómo las usamos
  * **HTML**: 
-   * Si lo escribimos a mano lo hacemos con sitnaxis [jade](https://www.npmjs.com/package/jade)
+   * Si lo escribimos a mano lo hacemos con sitnaxis [jade](http://jade-lang.com/) 
+   que se renderiza con el paquete [jade](https://www.npmjs.com/package/jade)
    * Si lo generamos usamos nuestra librería [js-to-html](https://www.npmjs.com/package/js-to-html)
  * **las pruebas**: 
    * Los casos los escribimos con [mocha](http://mochajs.org/),
    * las comparaciones con [expect.js](https://www.npmjs.com/package/expect.js)
    * para la cobertura de código usamos [istambul](https://www.npmjs.com/package/istanbul)
    * para las *funciones mock* o espías usamos [expect-called](https://www.npmjs.com/package/expect-called)
+ * **la configuración** la ponemos en formato [yaml](http://www.yaml.org/spec/1.2/spec.html#id2759963) 
+ y lo leemos con [read-yaml-promise](https://www.npmjs.com/package/read-yaml-promise),
+   * si tenemos algún archivo de configuración en json lo leemos con la función `fs.readJson`
+   * los nombres de archivos que empiezan con `local` deberían estar siempre excluidos del repositorio 
+   (o sea debe incluirse `local-*` y `*-local.*` en `.gitignore`
  * **la documentación** la escribimos en [MarkDown](https://guides.github.com/features/mastering-markdown/), 
  si lo que documentamos tiene como objetivo compartirse con la comunidad tratamos de escribirlo en inglés y castellano 
  usando nuestra librería [multilang](https://www.npmjs.com/package/multilang).
