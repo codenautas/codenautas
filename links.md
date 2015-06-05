@@ -17,6 +17,7 @@
    * Si lo escribimos a mano lo hacemos con sitnaxis [jade](http://jade-lang.com/) 
    que se renderiza con el paquete [jade](https://www.npmjs.com/package/jade)
    * Si lo generamos usamos nuestra librería [js-to-html](https://www.npmjs.com/package/js-to-html)
+   * Para usar CSS usamos [stylus](https://learnboost.github.io/stylus/)
  * **las pruebas**: 
    * Los casos los escribimos con [mocha](http://mochajs.org/),
    * las comparaciones con [expect.js](https://www.npmjs.com/package/expect.js)
@@ -32,3 +33,4 @@
  usando nuestra librería [multilang](https://www.npmjs.com/package/multilang).
  * **el formato** de la información que desplegamos se basa en:
    * [moment](http://momentjs.com/docs/) para fechas
+   * [numeral](http://numeraljs.com/) para números
