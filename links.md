@@ -23,6 +23,7 @@
    * las comparaciones con [expect.js](https://www.npmjs.com/package/expect.js)
    * para la cobertura de código usamos [istambul](https://www.npmjs.com/package/istanbul)
    * para las *funciones mock* o espías usamos [expect-called](https://www.npmjs.com/package/expect-called)
+   * para mostrar información de fecha/hora en los logs usamos [console-stamp](https://www.npmjs.com/package/console-stamp)
  * **la configuración** la ponemos en formato [yaml](http://www.yaml.org/spec/1.2/spec.html#id2759963) 
  y lo leemos con [read-yaml-promise](https://www.npmjs.com/package/read-yaml-promise),
    * si tenemos algún archivo de configuración en json lo leemos con la función `fs.readJson`
