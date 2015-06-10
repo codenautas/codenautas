@@ -35,3 +35,6 @@
  * **el formato** de la información que desplegamos se basa en:
    * [moment](http://momentjs.com/docs/) para fechas
    * [numeral](http://numeraljs.com/) para números
+ * **la configuración** de los sistemas, 
+   * cuando los vayamos a escribir nosotros a mano lo hacemos en [yaml](http://www.yaml.org/refcard.html) usando el módulo [read-yaml-promise](https://www.npmjs.com/package/read-yaml-promise)
+   * cuando no quede más remedio serán **json** leídos con [fs.readJson](https://www.npmjs.com/package/fs-promise)
