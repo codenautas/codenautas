@@ -4,17 +4,25 @@ Todos nuestros fuentes Javascript que estén diseñados tanto para usarse en Nod
 
 ```js
 "use strict";
+/* eqnull:true */
 (function webpackUniversalModuleDefinition(root, factory) {
+    /* global define */
+    /* global globalModuleName */
+    /* istanbul ignore next */
+    if(typeof root.globalModuleName !== 'string'){
+        root.globalModuleName = factory.name;
+    }
     /* istanbul ignore next */
     if(typeof exports === 'object' && typeof module === 'object')
         module.exports = factory();
     else if(typeof define === 'function' && define.amd)
         define(factory);
     else if(typeof exports === 'object')
-        exports["nombreDelModulo"] = factory();
+        exports[root.globalModuleName] = factory();
     else
-        root["nombreDelModulo"] = factory();
-})(this, function() {
+        root[root.globalModuleName] = factory();
+    root.globalModuleName = null;
+})(this, function nombreDelModulo() {
 
 var nombreDelModulo = {};
 
@@ -24,6 +32,8 @@ nombreDelModulo.ejemploDeFuncion = function ejemploDeFuncion(){
 
 // ...
 // ...
+
+return nombreDelModulo;
 
 });
 
