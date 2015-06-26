@@ -1,5 +1,7 @@
 # paquetes
 
+(ver links)
+
 ## en el futuro
 
 paquete | uso
