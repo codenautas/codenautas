@@ -38,3 +38,6 @@
  * **la configuración** de los sistemas, 
    * cuando los vayamos a escribir nosotros a mano lo hacemos en [yaml](http://www.yaml.org/refcard.html) usando el módulo [read-yaml-promise](https://www.npmjs.com/package/read-yaml-promise)
    * cuando no quede más remedio serán **json** leídos con [fs.readJson](https://www.npmjs.com/package/fs-promise)
+ * **el servidor**:
+   * la documentación oficial de [node](https://nodejs.org/api/)
+   * [express](http://expressjs.com/4x/api.html) para ver cómo es req y res 
