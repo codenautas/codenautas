@@ -22,7 +22,7 @@
    * Los casos los escribimos con [mocha](http://mochajs.org/),
    * las comparaciones con [expect.js](https://www.npmjs.com/package/expect.js)
    * para la cobertura de código usamos [istambul](https://www.npmjs.com/package/istanbul)
-   * para las *funciones mock* o espías usamos [expect-called](https://www.npmjs.com/package/expect-called)
+   * para las *funciones mock* o espías usamos [sinon](http://sinonjs.org/) y vamos a ir reemplazando lo que ya está escito en [expect-called](https://www.npmjs.com/package/expect-called)
    * para mostrar información de fecha/hora en los logs usamos [console-stamp](https://www.npmjs.com/package/console-stamp)
  * **la configuración** la ponemos en formato [yaml](http://www.yaml.org/spec/1.2/spec.html#id2759963) 
  y lo leemos con [read-yaml-promise](https://www.npmjs.com/package/read-yaml-promise),
