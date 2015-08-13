@@ -8,5 +8,5 @@ How to avoid it?
 
 insted of                                          | write
 ---------------------------------------------------|-------------------------------------------------
-$('#id').html('<p>'+value+'</p>')                  | $('#id').append($('<p>').text(value));
-$('#id').html('<img src="'+url+'">')               | $('#id').append($('<img>').attr('src',url));
+`$('#id').html('<p>'+value+'</p>')`                | `$('#id').append($('<p>').text(value))`
+`$('#id').html('<img src="'+url+'">')`             | `$('#id').append($('<img>').attr('src',url))`
