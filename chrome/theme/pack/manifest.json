@@ -1,0 +1,28 @@
+{
+  "version": "0.1",
+  "name": "codenautas theme",
+  "manifest_version": 2,
+  "theme": {
+    "colors" : {
+      "frame" : [71, 105, 91],
+      "toolbar" : [192, 207, 221],
+      "toolbar_text" : [7, 21, 92],
+      "bookmark_text" : [0, 0, 0],
+      "ntp_text" : [20, 40, 0],
+      "ntp_link" : [36, 70, 0],
+      "ntp_section" : [207, 221, 192],
+      "button_background" : [255, 255, 255]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  },
+  "icons": {
+    "16": "codenautas_theme16.png",
+    "48": "codenautas_theme48.png",
+   "128": "codenautas_theme.png" 
+  }
+}
