@@ -25,9 +25,52 @@ Hopefully, subsecuent versions of this documents will evolve into a more consist
   * [multilang](https://github.com/codenautas/multilang) should be used to generate (from LEEME.md) README.md and other language files
   * Warning: README.md is required for npmjs.com publication
 * [qa-control](https://github.com/codenautas/qa-control) can be used to check for various conventions including:
-  * package.json format and depenencies
+  * package.json format and dependencies
   * .gitignore, .travis, etc
-  * jshint/eslint warnings
+  * jshint/eslint warnings and "use strict" declarations
   * "cucardas"
   * [multilang](https://github.com/codenautas/multilang) sincronization
 
+---
+
+### JavaScript guidelines
+* Variables should be named using camel-case:
+```javascript
+  var myVariable;
+```
+* Methods of classes should be declared verbatim to favor debugging (i.e. with Chrome):
+```javascript
+var myClass = {}
+// correct
+myClass.myMethod = function myMethod() {};
+// incorrect
+myClass.myMethod = function() {};
+
+```
+* Open braces in conditionals and loops should be in on the same line as the keyword:
+```javascript
+// correct
+if(condition) {
+  // ...
+}
+for(var i; i<max; ++i) {
+}
+
+// incorrect
+if(condition)
+{
+  // ...
+}
+while(condition)
+{
+  // ...
+}
+```
+* **else** should be in the same line of the braces:
+```javascript
+if(condition) {
+  // ...
+} else {
+  // ...
+}
+```
