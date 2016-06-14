@@ -74,3 +74,16 @@ if(condition) {
   // ...
 }
 ```
+* The space between the keyword and the brace is optional, but must be consistent in the file:
+```javascript
+// one way
+if(condition) {
+  // ...
+} else {
+
+// the other way
+if(condition){
+  // ...
+}else{
+
+```
