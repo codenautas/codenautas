@@ -1,4 +1,4 @@
-## Draft for future coding conventions and guidelines of Codenautas projects
+## Draft of future coding conventions and guidelines for Codenautas projects
 
 ### Porpuose
 This document collects de facto coding conventions used in current projects, starting with a simple list with little or no clasification.
