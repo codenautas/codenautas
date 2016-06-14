@@ -4,6 +4,11 @@
 This document collects de facto coding conventions used in current projects, starting with a simple list with little or no clasification.
 Hopefully, subsecuent versions of this documents will evolve into a more consistent classification.
 
+### Contents:
+* [Node projects](#node-projects)
+* [JavaScript guidelines](#javascript-guidelines)
+
+
 ### Node projects
 * New projects should be created using [qa-control command-line utility](https://github.com/codenautas/qa-control) that generates a template with the minimal
   required setup, for example:
