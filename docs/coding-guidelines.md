@@ -15,14 +15,19 @@ Hopefully, subsecuent versions of this documents will evolve into a more consist
 
       ext | width
     ------|-------
-      js  |   4
-      md  |   2
+    css   |   2
     jade  |   2
+    js    |   4
+    md    |   2
 
   * Replace tabs with spaces
 * Multi-language documentation should be written in github's style of markdown, starting in LEEME.md file, providing at least a description in english and spanish.
   * [multilang](https://github.com/codenautas/multilang) should be used to generate (from LEEME.md) README.md and other language files
   * Warning: README.md is required for npmjs.com publication
-* [qa-control](https://github.com/codenautas/qa-control) can be used to check for various conventions including package.json format and depenencies,
-  .gitignore, jshint/eslint warnings and "cucardas"
+* [qa-control](https://github.com/codenautas/qa-control) can be used to check for various conventions including:
+  * package.json format and depenencies
+  * .gitignore, .travis, etc
+  * jshint/eslint warnings
+  * "cucardas"
+  * [multilang](https://github.com/codenautas/multilang) sincronization
 
