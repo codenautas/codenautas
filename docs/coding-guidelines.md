@@ -20,7 +20,7 @@ Hopefully, subsecuent versions of this documents will evolve into a more consist
   * Tabs according by file-type:
 
       ext | width
-    ------|-------
+    ------|-------:
     css   |   2
     jade  |   2
     js    |   4
@@ -92,4 +92,18 @@ if(condition){
   // ...
 }else{
 
+```
+* String concatenation should be avoided, use array push() + join() instead:
+```javascript
+// wrong
+var s="";
+s += "one";
+s += "two" + "three";
+var result = s;
+// right!
+var s=[];
+s.push("one");
+s.push("two");
+s.push("three");
+var result = s.join('');
 ```
