@@ -40,6 +40,7 @@ Hopefully, subsecuent versions of this documents will evolve into a more consist
 ---
 
 ### JavaScript guidelines
+#### Style
 * Variables should be named using camel-case:
 ```javascript
   var myVariable;
@@ -91,8 +92,8 @@ if(condition) {
 if(condition){
   // ...
 }else{
-
 ```
+#### Performance
 * String concatenation should be avoided, use array push() + join() instead:
 ```javascript
 // wrong
