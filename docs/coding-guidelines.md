@@ -43,8 +43,11 @@ Hopefully, subsecuent versions of this documents will evolve into a more consist
 #### Style
 * Variables should be named using camel-case:
 ```javascript
-  var myVariable;
+  var father;
+  var childPeter;
+  var fatherAndSon;
 ```
+
 * Methods of classes should be declared verbatim to favor debugging (i.e. with Chrome):
 ```javascript
 var myClass = {}
@@ -54,6 +57,7 @@ myClass.myMethod = function myMethod() {};
 myClass.myMethod = function() {};
 
 ```
+
 * Open braces in conditionals and loops should be in on the same line as the keyword:
 ```javascript
 // correct
@@ -81,6 +85,7 @@ if(condition) {
   // ...
 }
 ```
+
 * The space between the keyword and the brace is optional, but must be consistent in the file:
 ```javascript
 // one way
@@ -93,6 +98,25 @@ if(condition){
   // ...
 }else{
 ```
+
+* Objects should be defined using {} syntax (inline form) when posible
+```javascript
+
+function f1(obj) {
+  return obj.first + obj.second;
+}
+// use
+var result = f1({first:12, second:54});
+
+// instead of
+function Param(first, second) {
+  this.first = first;
+  this.second = second;
+}
+var result = f1(new Param{12, 54));
+
+```
+
 #### Performance
 * String concatenation should be avoided, use array push() + join() instead:
 ```javascript
