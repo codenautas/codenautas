@@ -143,12 +143,12 @@ var result = f1(new Param{12, 54));
 
 [!--lang:es-->
 
-* Para la concatenación de strings dentro de ciclos hay evitar el operador `+`,
+* Para la concatenación de strings dentro de ciclos o funciones recursivas hay evitar acumular dentro de "Strings", 
 conviene usar un array para ir juntando los strings parciales de cada iteración con push() y juntarlos al final con join():
  
 <!--lang:en--]
 
-* String concatenation should be avoided, use array push() + join() instead:
+* String concatenation should be avoided, use array push() and join() instead:
 
 [!--lang:*-->
 ```javascript

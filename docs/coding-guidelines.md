@@ -142,7 +142,7 @@ var result = f1(new Param{12, 54));
 ### Performance
 
 
-* String concatenation should be avoided, use array push() + join() instead:
+* String concatenation should be avoided, use array push() and join() instead:
 
 ```javascript
 var a=["one", "two", "three"];
