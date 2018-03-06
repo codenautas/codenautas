@@ -10,6 +10,10 @@
 
    * [Understanding ES5, ES2015 and TypeScript](https://johnpapa.net/es5-es2015-typescript/), por qué usar TypeScript
    
+   * Playground de Typescript https://www.typescriptlang.org/play/
+   
+   * Chat activo https://gitter.im/Microsoft/TypeScript
+   
 ## Qué instalar y configurar
 
 ### Typescript
@@ -17,7 +21,11 @@
 npm install -g typescript
 ```
 ### Visual Studio Code
+Tips:
+  * Paleta de comandos: ctrl + shift + p ahí se puede buscar como hacer cualquier cosa que permite VSCode
 Tiene las siguientes ventajas:
+   * Terminal integrada.
+   * Debug de código de servidor integrado.
    * Verifica los tipos mientras se programa.
    * Muestra el estado del git (qué se cambió y qué no)
    * Está basado en proyectos (o sea se abre la carpeta del proyecto, por ejemplo d:\hecho\npm\meta-enc y entiende que es un proyecto)
