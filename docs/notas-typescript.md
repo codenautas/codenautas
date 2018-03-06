@@ -23,6 +23,7 @@ npm install -g typescript
 ### Visual Studio Code
 Tips:
   * Paleta de comandos: ctrl + shift + p ahí se puede buscar como hacer cualquier cosa que permite VSCode
+  
 Tiene las siguientes ventajas:
    * Terminal integrada.
    * Debug de código de servidor integrado.
