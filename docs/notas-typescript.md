@@ -6,7 +6,7 @@
 
 ## Ver
 
-   * [Writing Modern JavaScript with TypeScript](http://www.instrument.com/articles/writing-modern-javascript-with-typescript), breve introducción a lo escencial de Typescript 
+   * [Writing Modern JavaScript with TypeScript](http://www.instrument.com/articles/writing-modern-javascript-with-typescript), breve introducción a lo esencial de Typescript 
 
    * [Understanding ES5, ES2015 and TypeScript](https://johnpapa.net/es5-es2015-typescript/), por qué usar TypeScript
    
