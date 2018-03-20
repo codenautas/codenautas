@@ -1,4 +1,17 @@
+## Ejemplo para cambios actuales
 
+Me doy cuenta que trabajé en una copia vieja. **No quiero hacer merge**
+
+Primero hay que cerrar el Visual Studio porque si no se confunde
+
+```sh
+git diff -p > c:\temp\rel-enc.patch
+git checkout -- .
+git pull
+git apply --whitespace=warn c:\temp\rel-enc.patch
+```
+
+Puede fallar si hay conflictos.
 
 ## Ejemplo
 
