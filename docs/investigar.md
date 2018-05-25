@@ -16,7 +16,7 @@
 
 
 
-## Notas
+## referencias
 
   * 👍 es interesante y útil
   * 🙈 todavía no fue leído/analizado 
