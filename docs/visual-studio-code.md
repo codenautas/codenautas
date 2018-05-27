@@ -32,3 +32,12 @@ Para cambiar las teclas la asignación está en `c:\users\NOMBRE\AppData\Roaming
     }
 ]
 ```
+
+## extensiones
+
+  * Recomendadas:
+    * **Notepad++ keymap** para tener las mismas teclas del notepad++
+    * **Contextual Duplicate** para duplicar la línea o lo seleccionado (como hace el notepad++). Cambiar las teclas para poder usar <kbd>CTRL</kbd>+<kbd>D</kbd> 
+    * **Bookmarks** (para marcar líneas en el texto y poder ir hasta ahí): marca con <kbd>CTLR</kbd>+<kbd>ALT</kbd>+<kbd>K</kbd> y se mueve hacia atrás y adelante con las teclas que están al lado de la *K*: <kbd>CTLR</kbd>+<kbd>ALT</kbd>+<kbd>J</kbd> <kbd>CTLR</kbd>+<kbd>ALT</kbd>+<kbd>L</kbd>
+    * **languaje-stylus** para poder ver bonito coloreado los archivos *.styl*
+    
