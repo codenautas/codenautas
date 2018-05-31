@@ -16,12 +16,12 @@
 
 ### Orientación a objetos
 
-  * 🙈 🎓 [what-are-covariance-and-contravariance](https://www.stephanboyer.com/post/132/what-are-covariance-and-contravariance), temas avanzados de herencia. 
-
+  * 👍 🔬 [what-are-covariance-and-contravariance](https://www.stephanboyer.com/post/132/what-are-covariance-and-contravariance), temas avanzados de herencia. 
 
 
 ## referencias
 
   * 👍 es interesante y útil
   * 🙈 todavía no fue leído/analizado 
+  * 🔬 nivel de detalle interesante
   * 🎓 quizás sea muy teórico
