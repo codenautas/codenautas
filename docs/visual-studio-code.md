@@ -11,8 +11,9 @@ Las opciones que siguen normalmente están en `c:\users\NOMBRE\AppData\Roaming\C
     "workbench.colorTheme": "Default Light+",
     "bash-terminal.integrated.shell.windows": "c:\\Program Files\\Git\\bin\\bash.exe",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "git.enableSmartCommit": false,
     "git.promptToSaveFilesBeforeCommit": true,
-    "window.title": "${rootName}${dirty}${separator}${activeEditorShort}",
+    "window.title": "${rootName}${dirty}${separator}${activeEditorMedium}",
     "window.zoomLevel": 0
 }
 ```
