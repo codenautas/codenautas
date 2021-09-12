@@ -17,9 +17,15 @@
 ## Qué instalar y configurar
 
 ### Typescript
+
+Ya no instalamos el typescript en forma global (con `-g`) porque podemos olvidarnos de agregarlo en el 
+`package.json`. Además conviene que el _build_ se haga con la versión de typescript que corresponda en 
+cada caso (o sea la que figura en `package.json`)
+
 ```sh
-npm install -g typescript
+npm install typescript
 ```
+
 ### Visual Studio Code
 Tips:
   * Paleta de comandos: ctrl + shift + p ahí se puede buscar como hacer cualquier cosa que permite VSCode
@@ -42,3 +48,13 @@ Y algunas desventajas:
 Se puede poner un ícono para que abra la carpeta actual en una nueva instancia de Visual Studio Code
 
 ![tc](img/total_commander_visual_studio.png)
+
+## Uso de typescript en la comunidad
+
+### Encuesta de Stackoverflow 2021
+[![encuesta de stackoverflow](ts-loved.png)](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted)
+### Encuesta de github 2020
+[![encuesta de github](ts-top-lang.png)](https://octoverse.github.com/)
+
+### Estado del Javascript
+[![satisfacción de Typescript](ts-satisfaction.png)](https://2020.stateofjs.com/en-US/technologies/javascript-flavors/)
